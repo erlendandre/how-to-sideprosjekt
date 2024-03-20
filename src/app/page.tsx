@@ -1,17 +1,21 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center h-full gap-10 p-24">
-      <h1 className="text-3xl font-medium">
-        Velkommen til {'"'}How to sideprosjekt{'"'}
+    <div className="text-center">
+      <h1 className="text-4xl font-bold text-gray-100">
+          👋🏻 Hei, dette er Erlend André Høntorp!
       </h1>
-
-      <p>
-        Om du vil ha oppgaver, les{" "}
-        <span className="bg-gray-200 font-mono py-1 px-2 rounded-md">
-          README.md
-        </span>
-        .
-      </p>
-    </main>
+      <p>Han er:</p>
+      <ul className="pl-4 list-disc">
+        <li>kul</li>
+        <li>snill</li>
+        <li>flink til å progge</li>
+      </ul>
+      <p>og lærer seg nå:</p>
+      <ul className="pl-4 list-disc">
+        <li>å lage sin egen nettside</li>
+      </ul>
+    </div>
   );
 }
+
+/* import ProjectList from "./project-list";*/

@@ -54,4 +54,4 @@ export default function Prosjekter() {
 
 [Tilbake til oppgave 2](./oppgave-1.md)
 
-[Trykk her for å gå til oppgave 3](./oppgave-3.md)
+[Trykk her for å gå til oppgave 4](./oppgave-4.md)
